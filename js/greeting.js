@@ -15,7 +15,7 @@ if (localStorage.getItem('name') !== null) {
 	setGreeting(greetingName);
 	nameInput.placeholder = name;
 } else {
-	let name = 'Anon';
+	let name = 'Matthew';
 	let greetingName = `<span class="header__greeting-name">${name}</span>.`
 	setGreeting(greetingName);
 	nameInput.placeholder = name;
